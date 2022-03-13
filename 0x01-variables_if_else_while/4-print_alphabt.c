@@ -9,11 +9,12 @@
 int main(void)
 {
 	char alphabet[24] = "abcdfghijklmnoprstuvwxyz";
+	int i;
 
-	for (int i = 0; i < 24; i++)
+	for (i = 0; i < 24; i++)
 	{
 		putchar(alphabet[i]);
 	}
-	putchar([i]);
+	putchar('\n');
 	return (0);
 }
