@@ -21,4 +21,5 @@ int main(void)
 		putchar(alphabetcapital[j]);
 	}
 	putchar('\n');
+	return (0);
 }
