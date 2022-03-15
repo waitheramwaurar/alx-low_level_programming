@@ -20,7 +20,7 @@ void jack_bauer(void)
 			{
 				int d;
 
-				for (d = 50; d <= 57; d++)
+				for (d = 48; d <= 57; d++)
 				{
 					if (a >= 50 && b >= 52)
 						break;
@@ -34,6 +34,5 @@ void jack_bauer(void)
 				}
 			}
 		}
-		
 	}
 }
