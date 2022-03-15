@@ -17,6 +17,7 @@ int main(void)
 	for (i = 0; i < 48; i++)
 	{
 		long int sum = a + b;
+
 		printf(", %ld", sum);
 		a = b;
 		b = sum;
