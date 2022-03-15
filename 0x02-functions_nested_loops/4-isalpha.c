@@ -3,10 +3,9 @@
 /**
  * _isalpha - function that checks for alphabetic character
  *
- * @c - character being checked, in ASCII code
+ * @c: character being checked, in ASCII code
  *
- * Return: 1 if @c is a letter, lowercase or uppercase
- * Return: 0 otherwise
+ * Return: 1 if @c is a letter, lowercase or uppercase, 0 otherwise
  */
 
 int _isalpha(int c)
