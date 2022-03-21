@@ -5,7 +5,7 @@
  * puts_half - takes string as input
  *
  * @str: string to be taken
- */ 
+ */
 
 void puts_half(char *str)
 {
