@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncmp - compares two strings
+ * _strcmp - compares two strings
  *
  * @s1: the first string
  * @s2: second string 
@@ -11,32 +11,16 @@
  * value < 0 if s1 less than s2
  */
 
-int *_strncmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
-        int i, j;
+        int i = 0, diff = 0;
 
-        i = 0;
-
-        j = 0;
-
-        while (s1[i])
+        while (diff == 0)
 	{
-		if (s1[i] == s2[j])
-		       continue;
-		else
+		if (s1[i] == '\0' || s2[i] == '\0')
 			break;
+		diff = s1[i] - s2[i];
 		i++;
-		j++;	
 	}
-
-	if (*s1 == *s2)
-	{
-		return 0;
-	}
-	else if (s1[i] < s2[j])
-	{
-		return (-15);
-	}
-	else
-		return 15;
+	return (diff);
 }
