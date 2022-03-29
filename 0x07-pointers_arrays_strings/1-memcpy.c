@@ -5,7 +5,7 @@
  *
  * @dest: the memory area to be copied to
  * @src: the memory area to be copied from
- * @n: number of bytes 
+ * @n: number of bytes
  *
  * Return: pointer to dest
  */
