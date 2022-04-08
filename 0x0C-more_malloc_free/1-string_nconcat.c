@@ -27,6 +27,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 
 	j = 1;
+
 	while (*(s2 + j))
 		j++;
 
@@ -39,6 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	i = 0;
+
 	while (*(s1 + i))
 	{
 		new_str[i] = s1[i];
@@ -46,13 +48,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	j = 0;
+
 	while (j < n)
 	{
 		new_str[i] = s2[j];
 		i++;
 		j++;
 	}
-
 	new_str[i] = '\0';
+
 	return (new_str);
 }
